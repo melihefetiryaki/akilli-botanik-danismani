@@ -1,0 +1,6 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Sadece sağa sola kaymayı engeller, aşağı kaydırmaya izin verir */
+  background-color: #050505; 
+}
