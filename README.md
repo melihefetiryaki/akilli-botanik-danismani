@@ -1,46 +1,66 @@
-# Akıllı Botanik Danışmanı Web 🌿
+🌿 Akıllı Botanik Danışmanı
 
-Bu proje, **Burdur Mehmet Akif Ersoy Üniversitesi (MAKÜ)** bünyesinde yürüttüğüm akademik çalışmalar ve girişimcilik vizyonum doğrultusunda geliştirilmiş, **Akıllı Saksı (Smart Planter)** sistemi için modern bir web arayüzüdür. Bitki bakım süreçlerini dijitalleştirerek kullanıcıların verileri kolayca izlemesini sağlar.
+Akıllı Botanik Danışmanı, bitki bakımını dijitalleştirerek kullanıcıların bitkilerini daha sağlıklı ve bilinçli şekilde yetiştirmesini sağlayan akıllı bir web platformudur. Sistem; sensör verileri, yapay zeka ve uzman desteğini bir araya getirerek kapsamlı bir bitki bakım ekosistemi sunar.
 
-## 🚀 Kullanılan Teknolojiler
+🚀 Proje Amacı
 
-* **Frontend:** [React](https://react.dev/)
-* **Build Aracı:** [Vite](https://vitejs.dev/)
-* **3D Modelleme:** Projede `public/saksi.glb` dosyasında bulunan 3D model, üç boyutlu görselleştirme için kullanılmıştır.
-* **Stil:** Modüler CSS (`App.css`, `index.css`)
+Bu proje, bitki yetiştiriciliğini sadece bilgiye dayalı olmaktan çıkarıp veri, yapay zeka ve uzman desteğiyle desteklenen akıllı bir sisteme dönüştürmeyi amaçlar. Kullanıcılar hem bireysel bitkilerini takip edebilir hem de profesyonel destek alabilir.
 
-## 🛠️ Kurulum ve Çalıştırma
+🌱 Özellikler
 
-Projeyi yerel ortamınızda ayağa kaldırmak için aşağıdaki adımları izleyebilirsiniz:
+🌿 Bitki Bilgi Sistemi
+Bitkilerin en uygun yetişme koşulları (ışık, su, nem, toprak vb.)
+Türlere göre bakım rehberleri
+Sağlıklı büyüme için öneriler
 
-### 1. Bağımlılıkları Yükleyin
-Proje dizinine terminal üzerinden gidin ve gerekli paketleri yükleyin:
-```
+📡 Akıllı Sensör Takibi
+Kullanıcı kendi bitkilerini sensörler aracılığıyla takip edebilir
+Nem, sıcaklık ve toprak durumu analizi
+Gerçek zamanlı veri takibi
+
+🔔 Akıllı Bildirim Sistemi
+Sulama zamanı geldiğinde hatırlatma
+Gübreleme ve bakım uyarıları
+Bitkinin durumuna göre özel bildirimler
+
+🧠 Yapay Zeka ile Hastalık Tespiti
+Hasta bitki fotoğrafı yükleme
+Yapay zeka ile hastalık analizi
+Tedavi ve çözüm önerileri
+
+👨‍🌾 Uzman Desteği
+Ziraat mühendisleri ile iletişime geçebilme
+Bitki sorunları için profesyonel danışmanlık
+
+🌳 Sosyal Sorumluluk Entegrasyonu
+Tema Vakfı üzerinden fidan bağışı yapabilme
+Doğaya katkı sağlayan kullanıcı deneyimi
+
+🛠️ Kullanılan Teknolojiler
+HTML5
+CSS3
+JavaScript
+Vite
+Node.js
+(Geliştirme aşamasında: Sensör entegrasyonları)
+
+📁 Proje Yapısı
+public/
+src/
+index.html
+package.json
+vite.config.js
+
+⚙️ Kurulum
+Projeyi çalıştırmak için:
+git clone https://github.com/kullanici-adi/akilli-botanik-danismani.git
+cd akilli-botanik-danismani
 npm install
-```
-
-### 2. Çevresel Değişkenleri (.env) Ayarlayın
-Hata almamak için ana dizinde bir `.env` dosyası oluşturun ve API anahtarınızı Vite standartlarına uygun şekilde ekleyin:
-
-```
-VITE_GEMINI_API_KEY=buraya_api_anahtarinizi_yazin
-```
-
-### 3. Uygulamayı Başlatın
-Geliştirme sunucusunu çalıştırmak için:
-
-```
 npm run dev
-```
 
-## 📁 Proje Yapısı
+👥 Geliştirici Ekip
+Yusuf Biçici
+Melih Efe Tiryaki
 
-* `public/`: 3D modeller ve ikonlar gibi statik dosyalar.
-* `src/`: Uygulama kaynak kodları, React bileşenleri ve stil dosyaları.
-* `.gitignore`: `.env` ve `node_modules` gibi hassas veya gereksiz dosyaların Git'e yüklenmesini engeller.
-
-## ⚠️ Önemli Notlar
-
-- `.env` dosyanızı asla GitHub gibi açık kaynak platformlarda paylaşmayın.
-- Projede kullanılan 3D modelin (`saksi.glb`) doğru görünmesi için tarayıcınızın WebGL desteğinin açık olduğundan emin olun.
-
+🎯 Vizyon
+Bu proje, bitki bakımını sadece hobi olmaktan çıkarıp akıllı sistemler, veri analizi ve yapay zeka ile desteklenen modern bir tarım deneyimine dönüştürmeyi hedefler.
